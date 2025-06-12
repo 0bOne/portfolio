@@ -1,0 +1,19 @@
+<?php
+	//global settings used throughout the VCMS application. Typically changed before deployment
+	$VCMS_SESSION_NAME = "elite_site";				    //sesssion variable name
+	$VCMS_AES_KEY = "felkjfsf0duiy234lksjfssfklj";		//encryption key.
+	$VCMS_DB_NAME = 'nit_app';							//database name
+	$VCMS_DB_HOST = 'localhost';						//database host
+	$VCMS_DB_USER = 'root';								//database connection ID
+	$VCMS_DB_PASS = '';									//database connection password
+	
+	$VCMS_ADMIN_USER = "narradmin";						//sign-in name to administer the server
+	$VCMS_ADMIN_PASS = "1293910";						//administrator password
+	
+	//Mail details
+	$VCMS_SMTP_HOST = "smtp.comcast.net";
+	$VCMS_SMTP_USER = "viforce@comcast.net";
+	$VCMS_SMTP_PASS = "protect1";
+	$VCMS_MAIL_INFO = "viforce@comcast.net";
+
+?>

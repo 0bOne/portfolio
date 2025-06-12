@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src='jquery-1.10.1.min.js' ></script>
+		<script src='jquery.klass-0.1a.min.js' ></script>
+		<script src='jquery.klass.proxy-0.1a.min.js' ></script>
+		<script src='comet.js' ></script>
+		<link rel='stylesheet' href='comet.css' />
+	</head>
+	<body>
+		<canvas id='canvas' width='640' height='480' >
+			this is may canvas
+		</canvas>
+		<div>
+		<!--_cometData: {posX: 310.0, posY: 50.0, vX: 8.0, vY: -5.4, aX: 0.0, aY: 0.0},-->
+			<table cellspacing="0" cellpadding="1">
+				<tr>
+				<td><label for='posX'>Position X:</label></td>
+				<td><input type='text' id='posX'  value="310.0" ></input></td>
+				<td><label for='posY'>Position Y:</label></td>
+				<td><input type='text' id='posY' value="50.0" ></input></td>
+				</tr>
+				<tr>
+				<td><label for='accX'>Acceleration X:</label></td>
+				<td><input type='text' id='accX' value="0" ></input></td>
+				<td><label for='accY'>Acceleration Y:</label></td>
+				<td><input type='text' id='accY' value="0" ></input></td>
+				</tr>
+				<tr>
+				<td><label for='velX'>Velocity X:</label></td>
+				<td><input type='text' id='velX' value="8.0" ></input></td>
+				<td><label for='velY'>Velocity Y:</label></td>
+				<td><input type='text' id='velY' value="-5.4" ></input></td>
+				</tr>
+				<tr>
+				<td colspan='2' ><input type="checkbox" id="pathOnly"><label for='pathOnly'>Draw Path Only</label></td>
+				<td >&nbsp;</td>
+				<td><input id='start' type="submit" value="Start"></input>
+					<input id='stop' type="submit" value="Stop"></input>
+				</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

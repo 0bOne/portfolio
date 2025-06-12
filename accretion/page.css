@@ -1,0 +1,38 @@
+HTML
+{
+	height: 100%;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+BODY
+{
+	text-align: center;
+}
+
+UL
+{
+	display: inline-block;
+	text-align: left;
+	max-width: 640px;
+	width: 100%;
+}
+
+#page
+{
+	max-width: 1290px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#intro
+{
+	text-align: left;
+}
+
+IMG
+{
+	max-width: 640px;
+	width: 100%;
+}

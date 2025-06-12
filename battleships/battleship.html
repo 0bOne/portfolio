@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src='jquery-1.10.1.min.js' ></script>
+		<script src='jquery.klass-0.1a.min.js' ></script>
+		<script src='jquery.klass.proxy-0.1a.min.js' ></script>
+		<script src='battleship.js' ></script>
+		<link rel='stylesheet' href='battleship.css' />
+	</head>
+	<body>
+		<table cellspacing='1' cellpading='1'>
+			<thead>
+				<tr>
+					<th colspan='2'>Enemy</th>
+					<th colspan='2'>Me</th>
+					<th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<label for='enemyEmail'>Email:</label>
+					</td>
+					<td>
+						<input type='email' id='enemyEmail'></input>
+					</td>
+					<td>
+						<label for='myEmail'>Email:</label>
+					</td>
+					<td>
+						<input type='email' id='myEmail'></input>
+					</td>
+					<td>&nbsp;</td>
+				</tr>			
+				<tr>
+					<td colspan='2'>
+						<canvas id='enemyCanvas' ></canvas>
+					</td>
+					<td colspan=2'>
+						<canvas id='myCanvas' ></canvas>
+					</td>
+					<td>
+						<table cellspacing='1' cellpading='1' class='buttonHolder' >
+							<tr>
+								<td colspan='3'><button id='positionBtn'>Position Ships</button></td>			
+							</tr>
+							<tr>
+								<td colspan='3'><button id='readyBtn'>Ready to Start</button></td>			
+							</tr>
+							<tr>
+								<td></td>
+								<td><button id='aimUp'>&uarr;</button></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><button id='aimLeft'>&larr;</button></td>
+								<td><label id='lblAim'>Aim</label></td>
+								<td><button id='aimRight'>&rarr;</button></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><button id='aimDown'>&darr;</button></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan='3'><button id='fireBtn'>FIRE</button></td>			
+							</tr>
+
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for='enemyStatus'>Status:</label>
+					</td>
+					<td>
+						<input type='text' id='enemyStatus' readonly ></input>
+					</td>
+					<td>
+						<label for='myStatus'>Status:</label>
+					</td>
+					<td>
+						<input type='text' id='myStatus' readonly></input>
+					</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						<label for='enemyScore'>Score:</label>
+					</td>
+					<td>
+						<input type='text' id='enemyScore' readonly ></input>
+					</td>
+					<td>
+						<label for='myScore'>Score:</label>
+					</td>
+					<td>
+						<input type='text' id='myScore' readonly></input>
+					</td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

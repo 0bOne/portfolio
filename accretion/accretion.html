@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src='jquery-1.10.1.min.js' ></script>
+		<script src='jquery.klass-0.1a.min.js' ></script>
+		<script src='jquery.klass.proxy-0.1a.min.js' ></script>
+		<script src='accretion.js' ></script>
+		<link rel='stylesheet' href='accretion.css' />
+	</head>
+	<body>
+		<canvas id='canvas' width='640' height='480' >
+			this is may canvas
+		</canvas>
+		<div>
+		<!--_cometData: {posX: 310.0, posY: 50.0, vX: 8.0, vY: -5.4, aX: 0.0, aY: 0.0},-->
+			<table cellspacing="0" cellpadding="1">
+				<tr>
+				<td><label for='particles'>Particles</label></td>
+				<td><input type='text' id='particles'  value="5000" ></input></td>
+				<td><label for='zoom'>Zoom</label></td>
+				<td><input type='text' id='zoom'  value="1" ></input></td>
+				</tr>
+				<tr>
+				<td>
+					<input id='start' type="submit" value="Start"></input>
+					<input id='stop' type="submit" value="Stop"></input>
+				</td>
+				<td>
+					<input id='largest' type="submit" value="Largest" title='fix camera on largest mass' ></input>
+					<input id='average' type="submit" value="Average" title='fix camera on average center' ></input>
+				</td>
+				<td>
+				</td>
+				<td>
+					<input id='zoomin' type="submit" value="Zoom In" ></input>
+					<input id='zoomout' type="submit" value="Zoom Out" ></input>
+				</td>
+				<td>
+				</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
