@@ -70,7 +70,7 @@ Feel free to play this game, but remain within shouting distance of your opponen
 1. There is no notification of when a ship is completely sunk  
 2. There is no notification of a winner  
 
-TODO: I rewrote this with a PHP backend, no good for GitHub pages!  I'll circle back and make this browser-only code when my portfolio is more complete.
+* [Play Battleships](./battleships/battleship.html)
 
 ### Meteoriot (1985)
 
@@ -96,7 +96,7 @@ Although I say so myself, somewhat ahead of its time (see [this article](http://
 
 It is widely believed that the term *relational* database refers to the relationships between tables (entity relationships). Technically speaking, however, it refers to the fact that each datum in a *row* within the table are related: a concept known as a *record*. My database design program had tables, and therefore records, but it had no concept of *entity relationships*. It did support multiple tables within a single database. Ted Codd's pioneering relational work was more than a decade into its evolution, but his concepts were not widely understood.
 
-My original program has long since been lost. Even if it hadn’t, I would have no 380Z on which to run it. Here I've approximated a few screens using a DOS batch file. Memory is a funny thing, so I don't guarantee it matches the original, but at least it gives an idea.
+My original program has long since been lost. Even if it hadn't, I would have no 380Z on which to run it. Here I've approximated a few screens using a DOS batch file. Memory is a funny thing, so I don't guarantee it matches the original, but at least it gives an idea.
 
 ![Screenshot 1](./umdatabase/screen1.png)  
 ![Screenshot 2](./umdatabase/screen2.png)  
