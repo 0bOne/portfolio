@@ -1,0 +1,21 @@
+{
+	"actions":
+	[
+		{"display": "You walk Northwards down a long corridor, which runs into a large, damp room.  You walk into the middle of the room and pause, while your eyes adjust to the gloom.  Looking about, you see some dozen or so coffins."},
+		{
+			"delay": 4, "actions": 
+						[
+							{"display": "Suddenly all the coffins spring open and you find yourself surrounded by Vampires of all shapes and sizes."},
+							{"hasitem": "crucifix", "minimum": 1,  "passActions": [
+																					{"display": "You have a crucifix"}, 
+																					{"vector": 109}
+																				], 
+																	"failActions": [
+																					{"display": "You do not have a crucifix"}, 
+																					{"vector": 67}
+																				]
+							}
+						]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"actions":
+	[
+		{"display": "You arrive at a cross-roads."}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"vector": 558}]},
+		{"dir": "s", "actions": [{"vector": 296}]},
+		{"dir": "e", "actions": [{"vector": 72}]},
+		{"dir": "w", "actions": [{"vector": 158}]}
+	]
+}

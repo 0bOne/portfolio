@@ -1,0 +1,9 @@
+{
+	"actions":
+	[
+		{"display": "You grasp the chest in your bare hands and pull, using sheer brute force."},
+		{"test": "strength", "passActions": [{"display": "The chest breaks open."}, {"vector": 295}], 
+						"failActions":  [{"display": "The chest will not open."}, {"vector": 303}]}
+	]
+}
+//TODO: This is not finished!!!!

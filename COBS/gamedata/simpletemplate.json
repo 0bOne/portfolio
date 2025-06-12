@@ -1,0 +1,12 @@
+{
+	"actions":
+	[
+		{"display": "The tunnel ends abruptly, and you step into a large cavern."}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"vector": 106}]},
+		{"dir": "nw", "actions": [{"vector": 57}]},
+		{"dir": "ne", "actions": [{"vector": 61}]}
+	]
+}

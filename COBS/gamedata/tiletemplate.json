@@ -1,0 +1,22 @@
+﻿{
+	"actions":
+	[
+		{"display": "The electricity surges through you as your foot touches the electrified tile! (Choose a direction for more damage, or go back to the previous tile)"},
+		{"stats": {"eos": -1}}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"stats": {"eos": -1}}, {"vector": 32}]},
+		{"dir": "ne", "actions": [{"stats": {"eos": -1}}, {"vector": 300}]},
+		{"dir": "e", "actions": [{"stats": {"eos": -1}}, {"vector": 300}]},
+		{"dir": "se", "actions": [{"stats": {"eos": -1}}, {"vector": 300}]},
+		{"dir": "s", "actions": [{"stats": {"eos": -1}}, {"vector": 300}]},
+		{"dir": "sw", "actions": [{"stats": {"eos": -1}}, {"vector": 300}]},
+		{"dir": "w", "actions": [{"stats": {"eos": -1}}, {"vector": 300}]},
+		{"dir": "nw", "actions": [{"stats": {"eos": -1}}, {"vector": 300}]}
+	],
+	"inputs":
+	[
+		{"input": "back", "actions": [{"back": 1}]}
+	]
+}

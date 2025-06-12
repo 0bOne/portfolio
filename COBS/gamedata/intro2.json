@@ -1,0 +1,12 @@
+﻿{
+	"actions":
+	[
+		{"display": "Many people have tried in vain to dissuade you from this suicidal mission, but you resolutely stick to your decision.  The fateful day comes at last, the villagers tearfully bid you farewell, and you set off Northwards to your destiny.\r\n\r\nA day’s hard trekking finally brings you to your goal.  Weary, you stop and rest for a while in a grove of gloomy leafless trees.  Hiding in the half-shadows, you gaze out at the monstrous monolith, its two tall towers disappearing into 6  the already darkening sky.  The fear gives you a surge of adrenaline, to lift the weariness from your body.\r\n\r\nWith quaking knees, you creep unseen through the twilight, towards the gaping black hole in the south wall.  As you crouch in the shadow of Blackrock Stone, lighting your lantern, you wonder whether to continue.  What horrors lie within the pitch black tunnel you are about to enter...?"}
+	],
+	"inputs":
+	[
+		{"input": "enter", "actions": [{"vector": "1"}]},
+		{"input": "begin", "actions": [{"vector": "1"}]},
+		{"input": "start", "actions": [{"vector": "1"}]}
+	]
+}

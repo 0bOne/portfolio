@@ -13,24 +13,20 @@ Many of these projects are screenshots, or replicas from memory, but hopefully e
 ## Catalog
 
 
-### Comet Simulator (1984)
+### Battleships (1987)
 
-* **Title:** Comet Simulator
-* **Date:** 1984
-* **Language:** BBC (Micro) BASIC
-* **Project:** For fun
+- **Title:** Battleships  
+- **Date:** 1987  
+- **Language:** Atari BASIC  
+- **Project:** For fun  
 
-As an armchair physicist and full-on computer programmer, it was natural (for me at least) to combine the two. This particular project was for fun, and it followed my learning of two important astronomy concepts: Newton's universal law of gravitation (the force of gravity is proportional to the product of the masses and inversely proportional to the distance between them) and the knowledge that a comet's tail always points away from the sun.
+This game was inspired by the traditional paper-and-pencil grid-based game.
 
-Up until then I thought that a comet, as the Bayeux tapestry depicts, had a tail that streams out behind it like a contrail. In fact it's more like a steam ship, where the smoke from the smokestack follows the wind. A comet's tail always follows the solar wind, which means it points away from the Sun, regardless of the comet's direction of travel.
+The original code is long lost, so I have re-created it here in HTML5. Unfortunately, I got a little carried away. The original could not, of course, be played by two players across the internet—there *was* no internet (at least not available to the public at large). In my original game, each player had to step away from the computer when it was not their turn.
 
-The original required careful attention to performance. For example, I had to carefully erase only the comet and its tail—as a full screen redraw was far too slow. In this version I just wipe the canvas and start over!
+Here, I had cursor port the jquery/php re-creation into modern JS.
 
-I have re-created it here in JavaScript using jQuery and an HTML5 canvas—so as usual the code looks nothing like the original. I also recall a few more settings on the original, but can't remember exactly what they were. Nevertheless, this will give you an idea.
-
-All Javascript (with JQuery) - no GPU.
-
-* [Proceed to simulator](accretion/accretion.html)
+* [Play Battleships](./battleships/battleship.html)
 
 
 ### 3D Maze (1986)
@@ -55,23 +51,6 @@ Eventually, I hope to find the time to re-create this in HTML5 where it will alm
 ![Monster Maze](3dmaze/monstermaze.jpg)
 
 
-### Battleships (1987)
-
-- **Title:** Battleships  
-- **Date:** 1987  
-- **Language:** Atari BASIC  
-- **Project:** For fun  
-
-This game was inspired by the traditional paper-and-pencil grid-based game.
-
-The original code is long lost, so I have re-created it here in HTML5. Unfortunately, I got a little carried away. The original could not, of course, be played by two players across the internet—there *was* no internet (at least not available to the public at large). In my original game, each player had to step away from the computer when it was not their turn.
-
-Feel free to play this game, but remain within shouting distance of your opponent. This is because of two significant shortcomings (sorry, ran out of time!):  
-1. There is no notification of when a ship is completely sunk  
-2. There is no notification of a winner  
-
-* [Play Battleships](./battleships/battleship.html)
-
 ### Meteoriot (1985)
 
 **Title:** Meteoriot Lander Game  
@@ -85,42 +64,25 @@ After each successful landing there would be more rocks, and more rugged terrain
 
 ![Meteoriot Lander Screenshot](./meteoriot/meteoriot.png)
 
-### Database Designer (1983)
 
-**Title:** Universal Multipurpose Database Designer  
-**Date:** Jan–May 1983  
-**Language:** Research Machines BASIC  
-**Project:** High School Graduation, Computer Science
+### Comet Simulator (1984)
 
-Although I say so myself, somewhat ahead of its time (see [this article](http://www.ustudy.in/node/4091)), although not entirely relational by today's popular understanding of the term.
+* **Title:** Comet Simulator
+* **Date:** 1984
+* **Language:** BBC (Micro) BASIC
+* **Project:** For fun
 
-It is widely believed that the term *relational* database refers to the relationships between tables (entity relationships). Technically speaking, however, it refers to the fact that each datum in a *row* within the table are related: a concept known as a *record*. My database design program had tables, and therefore records, but it had no concept of *entity relationships*. It did support multiple tables within a single database. Ted Codd's pioneering relational work was more than a decade into its evolution, but his concepts were not widely understood.
+As an armchair physicist and full-on computer programmer, it was natural (for me at least) to combine the two. This particular project was for fun, and it followed my learning of two important astronomy concepts: Newton's universal law of gravitation (the force of gravity is proportional to the product of the masses and inversely proportional to the distance between them) and the knowledge that a comet's tail always points away from the sun.
 
-My original program has long since been lost. Even if it hadn't, I would have no 380Z on which to run it. Here I've approximated a few screens using a DOS batch file. Memory is a funny thing, so I don't guarantee it matches the original, but at least it gives an idea.
+Up until then I thought that a comet, as the Bayeux tapestry depicts, had a tail that streams out behind it like a contrail. In fact it's more like a steam ship, where the smoke from the smokestack follows the wind. A comet's tail always follows the solar wind, which means it points away from the Sun, regardless of the comet's direction of travel.
 
-![Screenshot 1](./umdatabase/screen1.png)  
-![Screenshot 2](./umdatabase/screen2.png)  
-![Screenshot 3](./umdatabase/screen3.png)
+The original required careful attention to performance. For example, I had to carefully erase only the comet and its tail—as a full screen redraw was far too slow. In this version I just wipe the canvas and start over!
 
+I have re-created it here in JavaScript using jQuery and an HTML5 canvas—so as usual the code looks nothing like the original. I also recall a few more settings on the original, but can't remember exactly what they were. Nevertheless, this will give you an idea.
 
-### Pub POS and Stock Manager (1983)
+All Javascript (with JQuery) - no GPU.
 
-**Title:** Public House – Stock Management and Point of Sale  
-**Date:** Jan–May 1983  
-**Language:** Research Machines BASIC  
-**Project:** High School Graduation, Computer Science
-
-Top marks for this project, although it was by far the easiest of my three capstones. All I had to do was examine a few forms and receipts from my parents' public house and build a database around them. I suspect the evaluators did not dig into the code too far or my Monopoly game would have come out first.
-
-In addition to being the easiest of my three graduation projects, it was also the least fun to write: no room for creativity—just replicate a paper-based business workflow in code. On the other hand, no public house "landlord" (as they are referred to) would have, in those days, replaced a perfectly good cash register and account books with a several-thousand dollar 380Z, so this was strictly an exercise in what was possible, rather than what was practical.
-
-The original program and data have long since been lost. Even if they hadn't, I would have no 380Z on which to run it. Here, I've simulated several screens with a DOS batch file. Memory is a funny thing, so I don't guarantee it matches the original, but at least it gives an idea.
-
-
-![Screenshot 1](./pos-pub/image1.png)  
-![Screenshot 2](./pos-pub/image2.png)  
-![Screenshot 3](./pos-pub/image3.png)  
-![Screenshot 4](./pos-pub/image4.png)
+* [Proceed to simulator](accretion/accretion.html)
 
 
 ### Monopoly - Adventure Game Style (1983)
@@ -146,6 +108,57 @@ The original program and data have long since been lost. Even if they hadn't, I 
 ![Screen 2](./monopoly/monopoly2.png)  
 ![Screen 3](./monopoly/monopoly3.png)
 
+
+### Pub POS and Stock Manager (1983)
+
+**Title:** Public House – Stock Management and Point of Sale  
+**Date:** Jan–May 1983  
+**Language:** Research Machines BASIC  
+**Project:** High School Graduation, Computer Science
+
+Top marks for this project, although it was by far the easiest of my three capstones. All I had to do was examine a few forms and receipts from my parents' public house and build a database around them. I suspect the evaluators did not dig into the code too far or my Monopoly game would have come out first.
+
+In addition to being the easiest of my three graduation projects, it was also the least fun to write: no room for creativity—just replicate a paper-based business workflow in code. On the other hand, no public house "landlord" (as they are referred to) would have, in those days, replaced a perfectly good cash register and account books with a several-thousand dollar 380Z, so this was strictly an exercise in what was possible, rather than what was practical.
+
+The original program and data have long since been lost. Even if they hadn't, I would have no 380Z on which to run it. Here, I've simulated several screens with a DOS batch file. Memory is a funny thing, so I don't guarantee it matches the original, but at least it gives an idea.
+
+
+![Screenshot 1](./pos-pub/image1.png)  
+![Screenshot 2](./pos-pub/image2.png)  
+![Screenshot 3](./pos-pub/image3.png)  
+![Screenshot 4](./pos-pub/image4.png)
+
+
+### Database Designer (1983)
+
+**Title:** Universal Multipurpose Database Designer  
+**Date:** Jan–May 1983  
+**Language:** Research Machines BASIC  
+**Project:** High School Graduation, Computer Science
+
+Although I say so myself, somewhat ahead of its time (see [this article](http://www.ustudy.in/node/4091)), although not entirely relational by today's popular understanding of the term.
+
+It is widely believed that the term *relational* database refers to the relationships between tables (entity relationships). Technically speaking, however, it refers to the fact that each datum in a *row* within the table are related: a concept known as a *record*. My database design program had tables, and therefore records, but it had no concept of *entity relationships*. It did support multiple tables within a single database. Ted Codd's pioneering relational work was more than a decade into its evolution, but his concepts were not widely understood.
+
+My original program has long since been lost. Even if it hadn't, I would have no 380Z on which to run it. Here I've approximated a few screens using a DOS batch file. Memory is a funny thing, so I don't guarantee it matches the original, but at least it gives an idea.
+
+![Screenshot 1](./umdatabase/screen1.png)  
+![Screenshot 2](./umdatabase/screen2.png)  
+![Screenshot 3](./umdatabase/screen3.png)
+
+
+### The Crystal of Blackrock Stone (1982)
+
+**Title:** The Crystal of Blackrock Stone  
+**Date:** 1982  
+**Language:** Research Machines BASIC  
+**Project:** For fun
+
+A text-based adventure game that evolved from my earlier Caves of Chaos project. While still using the same maze generation technique, COBs added more game mechanics including inventory management, combat, and a proper ending condition. The game featured a dark fantasy theme where players must navigate through treacherous caves to find the legendary Crystal of Blackrock Stone, battling various creatures and solving puzzles along the way.
+
+I've recreated it here in modern JavaScript, maintaining the original gameplay while improving the user interface. The game now features a responsive layout with a scrollable output area and command input, making it more accessible on modern devices while preserving the classic text adventure experience.
+
+* [Play COBs](./COBS/Index.html)
 
 
 ### Caves of Chaos (1981)

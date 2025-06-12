@@ -1,0 +1,18 @@
+﻿{
+	"actions":
+	[
+		{"display": "As you place your foot on the square your whole body is wracked with the pain of high voltage electricity surging through you! (Choose a direction for more damage, or go back to the previous tile)"},
+		{"stats": {"eos": -1}}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"stats": {"eos": -1}}, {"vector": 165}]},
+		{"dir": "ne", "actions": [{"stats": {"eos": -1}}, {"vector": 309}]},
+		{"dir": "se", "actions": [{"stats": {"eos": -1}}, {"vector": 256}]},
+		{"dir": "s", "actions": [{"stats": {"eos": -1}}, {"vector": 127}]}
+	],
+	"inputs":
+	[
+		{"input": "back", "actions": [{"back": 1}]}
+	]
+}

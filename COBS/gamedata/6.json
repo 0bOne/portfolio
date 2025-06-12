@@ -1,0 +1,22 @@
+﻿{
+	"actions":
+	[
+		{"display": "You come to.  You breathe a sigh of relief that unimaginable monsters have not eaten you or chopped you to pieces.  Feeling around in the darkness, you soon find your lantern which, like yourself, is none the worse for the fall.\r\n\r\nYou relight it and look around the pit.  Looking upwards, you cannot see the top and wonder how anyone could have survived such a fall."}
+	],
+	"inputs":
+	[
+		{"input": "look", "actions":
+							[
+								{"display": "There is a hole in the floor"},
+								{"modify": 
+									{
+										"exits": [
+													{"dir": "d", "actions": [{"vector": 53}]}
+												 ]
+									}
+								}
+							]
+		}
+	],
+	"exits":[]
+}

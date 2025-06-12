@@ -1,0 +1,8 @@
+{
+	"actions":
+	[
+		{"display": "The Vampire sinks his teeth into your neck."},
+		{"test": "fate", "passActions": [{"vector": 108}], 
+						"failActions":  [{"vector": 65}]}
+	]
+}

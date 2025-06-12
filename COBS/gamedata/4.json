@@ -1,0 +1,11 @@
+﻿{
+	"actions":
+	[
+		{"display": "You find yourself in a North-South passage, with a seemingly blank wall to the South.  To the North, however, the passage runs straight on as far as you can see."}
+	],
+	"exits":
+	[
+		{"dir": "s", "actions": [{"vector": 51}]},
+		{"dir": "n", "actions": [{"vector": 95}]}
+	]
+}

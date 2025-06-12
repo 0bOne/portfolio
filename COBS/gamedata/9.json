@@ -1,0 +1,11 @@
+{
+	"actions":
+	[
+		{"display": "The path splits into two."}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"vector": 101}]},
+		{"dir": "ne", "actions": [{"vector": 591}]}
+	]
+}

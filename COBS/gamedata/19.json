@@ -1,0 +1,11 @@
+{
+	"actions":
+	[
+		{"display": "Which door will you try."}
+	],
+	"inputs":
+	[
+		{"input": "left", "actions": [{"vector": 112}]},
+		{"input": "right", "actions": [{"vector": 69}]}
+	]
+}

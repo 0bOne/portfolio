@@ -1,0 +1,12 @@
+﻿{
+	"actions":
+	[
+		{"display": "Centuries ago, the stargazers of the land of Shulake stared into the heavens with great wonder as a huge, black meteor plunged to the earth.  It landed in the country of Eastmid, near the castle of Dizzlewurn.\r\n\r\nSince that night, the huge meteor has been blamed for plunging Shulake into darkness and despair. No sunlight has struck the now-barren soil.  The people throughout the land have to rely on the evil creatures dwelling within the meteor for food - the grisly leftovers from evil meals.\r\n\r\nOver the centuries the meteor has changed its appearance - it has been carved into a colossal fortress, a monstrous square bulk, stretching high into the sky. Two towers stand on top reaching even higher.\r\n\r\nTaller still, higher even than the Hills of Stawk, rises the great flagpole, arrogantly flying its vile flag.\r\n\r\nAccording to historians, the meteor landed on the Temple of Deacat, cracking the Crystal of Peace contained within and many pieces broke away.  The only way that light and hope may be restored to the land is by restoring the crystal completely.  The fragments are all supposedly contained with the fortress, or Blackrock Stone, as it became known.\r\n\r\nYou were born and raised in the village of Muncheating, several leagues north of the stone.  Many adventurers from your village have disappeared within Blackrock Stone, never to be seen again.  Now you (foolishly, many say) feel your turn has come.  Your duty here can only be to succeed where many of your kinfolk have failed.\r\n\r\nYou have been preparing for months: improving your combat skills, getting into shape, and sharpening your wits.  Now you feel ready."}
+	],
+	"exits":
+	[
+		{"dir": "s", "actions": [{"vector": "intro2"}]},
+		{"dir": "se", "actions": [{"vector": "intro2"}]},
+		{"dir": "sw", "actions": [{"vector": "intro2"}]}
+	]
+}

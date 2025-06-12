@@ -1,0 +1,12 @@
+{
+	"actions":
+	[
+		{"display": "You arrive at a 3-way intersection."}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"vector": 77}]},
+		{"dir": "s", "actions": [{"vector": 119}]},
+		{"dir": "e", "actions": [{"vector": 123}]}
+	]
+}

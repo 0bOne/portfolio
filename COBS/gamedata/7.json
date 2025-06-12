@@ -1,0 +1,12 @@
+{
+	"actions":
+	[
+		{"display": "The tunnel ends abruptly, and you step into a large cavern.  The cavern is so vast that the far side cannot be seen - even though a light-emitting lichen covers almost every surface.  The wall behind you towers upwards like a colossal cliff face, and disappears into the distance either side of you.\r\n\r\nHigh above and far to your right, you can just make out a huge arch - a formation of rock - crossing the cavern from the wall behind you to the invisible far wall.\r\n\r\nThe lichen that covers everything gives off an eerie green glow, so you turn off your lantern and put it away.  Worn into the traversable, boulder strewn floor are a series of straight paths, branching off one another.  You follow the path leading North across the cavern floor, in the direction of the distant wall.  After a short walk, the passage splits into three ways."}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"vector": 106}]},
+		{"dir": "nw", "actions": [{"vector": 57}]}
+		{"dir": "ne", "actions": [{"vector": 61}]}
+	]
+}

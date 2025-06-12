@@ -1,0 +1,11 @@
+{
+	"actions":
+	[
+		{"display": "Your search around and examine the body of the creature, but find nothing of interest or value."}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"vector": 234}]},
+		{"dir": "nw", "actions": [{"vector": 188}]}
+	]
+}

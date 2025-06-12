@@ -1,0 +1,12 @@
+{
+	"actions":
+	[
+		{"display": "You walk along the tunnel until you come to a face of rock where the passage ends.  You feel about the rock and discover a small knob, which can be turned."}
+	],
+	"inputs":
+	[
+		{"input": "turn", "actions": [{"display": "which way?"}]},
+		{"input": "counterclockwise", "actions": [{"vector": 64}]},
+		{"input": "clockwise", "actions": [{"vector": 151}]}
+	]
+}

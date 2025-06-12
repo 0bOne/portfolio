@@ -1,0 +1,13 @@
+{
+	"actions":
+	[
+		{"display": "Nothing happens after taking a cautious step."}
+	],
+	"exits":
+	[
+		{"dir": "n", "actions": [{"vector": 38}]},
+		{"dir": "s", "actions": [{"vector": 450}]},
+		{"dir": "e", "actions": [{"vector": 446}]},
+		{"dir": "w", "actions": [{"vector": 585}]}
+	]
+}
