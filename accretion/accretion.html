@@ -1,44 +1,72 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<script src='jquery-1.10.1.min.js' ></script>
-		<script src='jquery.klass-0.1a.min.js' ></script>
-		<script src='jquery.klass.proxy-0.1a.min.js' ></script>
-		<script src='accretion.js' ></script>
-		<link rel='stylesheet' href='accretion.css' />
-	</head>
-	<body>
-		<canvas id='canvas' width='640' height='480' >
-			this is may canvas
-		</canvas>
-		<div>
-		<!--_cometData: {posX: 310.0, posY: 50.0, vX: 8.0, vY: -5.4, aX: 0.0, aY: 0.0},-->
-			<table cellspacing="0" cellpadding="1">
-				<tr>
-				<td><label for='particles'>Particles</label></td>
-				<td><input type='text' id='particles'  value="5000" ></input></td>
-				<td><label for='zoom'>Zoom</label></td>
-				<td><input type='text' id='zoom'  value="1" ></input></td>
-				</tr>
-				<tr>
+<head>
+	<script src="jquery-1.10.1.min.js"></script>
+	<script src="jquery.klass-0.1a.min.js"></script>
+	<script src="jquery.klass.proxy-0.1a.min.js"></script>
+	<script src="accretion.js"></script>
+	<link rel="stylesheet" href="accretion.css" />
+</head>
+<body>
+	<canvas id="canvas" width="640" height="480">
+		this is my canvas
+	</canvas>
+	<div>
+		<table cellspacing="0" cellpadding="1">
+			<tr>
+				<td><label for="particles">Particles</label></td>
+				<td><input type="text" id="particles" value="5000"></td>
+				<td><label for="zoom">Zoom</label></td>
+				<td><input type="text" id="zoom" value="1"></td>
+			</tr>
+			<tr>
 				<td>
-					<input id='start' type="submit" value="Start"></input>
-					<input id='stop' type="submit" value="Stop"></input>
+					<input id="start" type="submit" value="Start">
+					<input id="stop" type="submit" value="Stop">
 				</td>
 				<td>
-					<input id='largest' type="submit" value="Largest" title='fix camera on largest mass' ></input>
-					<input id='average' type="submit" value="Average" title='fix camera on average center' ></input>
+					<input id="largest" type="submit" value="Largest" title="Fix camera on largest mass">
+					<input id="average" type="submit" value="Average" title="Fix camera on average center">
 				</td>
+				<td></td>
 				<td>
+					<input id="zoomin" type="submit" value="Zoom In">
+					<input id="zoomout" type="submit" value="Zoom Out">
 				</td>
-				<td>
-					<input id='zoomin' type="submit" value="Zoom In" ></input>
-					<input id='zoomout' type="submit" value="Zoom Out" ></input>
-				</td>
-				<td>
-				</td>
-				</tr>
-			</table>
-		</div>
-	</body>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+
+	<hr>
+
+	<div id="instructions">
+		<h2>Accretion Simulator Instructions</h2>
+
+		<p>This interactive simulator models gravitational attraction and mass accretion between thousands of particles. Here's how to use it:</p>
+
+		<h3>Controls</h3>
+		<ul>
+			<li><strong>Particles</strong>: Set the initial number of particles (default: 5000).</li>
+			<li><strong>Zoom</strong>: Adjust the current zoom level (1 = normal scale).</li>
+		</ul>
+
+		<h3>Buttons</h3>
+		<ul>
+			<li><strong>Start</strong>: Begin the simulation.</li>
+			<li><strong>Stop</strong>: Pause the simulation.</li>
+			<li><strong>Largest</strong>: Recenter the camera on the largest particle (most mass).</li>
+			<li><strong>Average</strong>: Recenter the camera on the average center of mass.</li>
+			<li><strong>Zoom In / Zoom Out</strong>: Change the zoom level to inspect detail or view the full system.</li>
+		</ul>
+
+		<h3>Simulation Behavior</h3>
+		<ul>
+			<li>Each particle has random position, velocity, and mass.</li>
+			<li>Gravitational forces are applied between all particles.</li>
+			<li>When particles collide, they merge. The larger absorbs the smaller, conserving momentum.</li>
+			<li>The simulation runs in real-time. Performance may vary based on particle count and browser.</li>
+		</ul>
+	</div>
+</body>
 </html>
